@@ -1,5 +1,5 @@
 {
-  "name": "omega-strapi",
+  "name": "omega-website-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,17 +9,19 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.5",
-    "@strapi/plugin-users-permissions": "4.0.5",
-    "@strapi/strapi": "^4.0.7",
-    "sqlite3": "^4.2.0"
+    "@strapi/plugin-i18n": "4.1.1",
+    "@strapi/plugin-users-permissions": "4.1.1",
+    "@strapi/provider-email-sendgrid": "^4.1.1",
+    "@strapi/strapi": "4.1.1",
+    "sqlite3": "5.0.2"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "5b25bd33-41b4-427f-95b7-b184e992ec58"
+    "uuid": "84d63a89-e2f5-4d12-9e37-d9191a63e413"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
